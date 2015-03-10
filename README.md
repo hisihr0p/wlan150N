@@ -1,6 +1,4 @@
-# wlan150N
-
-# WiFi Hotspot
+# WiFi wlan150N
 interface=wlan2
 driver=nl80211
 
@@ -16,11 +14,11 @@ wmm_enabled=1
 channel=10
 
 # Security
-#macaddr_acl=0
-#auth_algs=1
-#ignore_broadcast_ssid=0
-#wpa=2
-#wpa_passphrase=$PASSWORD
-#wpa_key_mgmt=WPA-PSK
-#wpa_pairwise=TKIP
-#rsn_pairwise=CCMP
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=$PASSWORD
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP
